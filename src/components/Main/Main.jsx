@@ -2,7 +2,7 @@ import React from 'react'
 import './Main.css'
 import { useEffect, useRef } from 'react'
 import { UilSearch } from '@iconscout/react-unicons'
-import Waterfall from '../../img/waterfall.mp4'
+// import Waterfall from '../../img/waterfall.mp4'
 
 const Main = () => {
 
@@ -15,7 +15,7 @@ useEffect(() => {
     <div className="VideoContainer">
     <video autoPlay loop muted>
         <source
-         src={Waterfall}
+         src="https://advdevm0.blob.core.windows.net/newcontainer/waterfall.mp4"
           type="video/mp4"
         />
          </video>
