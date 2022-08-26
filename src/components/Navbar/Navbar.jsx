@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="NavBar">
-        <div className="Logo">
+        <div className="Logo" data-testid="logo">
               <img src={Logo} />
         </div>
         <div className="NavOptions">
