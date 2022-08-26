@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { UilSearch } from '@iconscout/react-unicons'
 // import Waterfall from '../../img/waterfall.mp4'
 

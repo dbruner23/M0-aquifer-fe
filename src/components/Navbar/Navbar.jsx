@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="NavBar">
         <div className="Logo" data-testid="logo">
-              <img src={Logo} />
+              <img src={Logo} alt=""/>
         </div>
         <div className="NavOptions">
           <div className="NavMenu" onMouseEnter={() => setProductsList(true)} onMouseLeave={() => setProductsList(false)}>

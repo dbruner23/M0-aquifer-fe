@@ -6,15 +6,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles'
-import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 
 const SubSection = () => {
-    const theme = useTheme();
-    const largeScreen = useMediaQuery(theme.breakpoints.up('sm'));
-
     return (
         <div className="SubContainer">
             <div className="Header">
